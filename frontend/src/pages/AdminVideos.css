@@ -1,0 +1,108 @@
+.admin-videos {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.admin-videos h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.back-button {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.back-button:hover {
+  background: #4b5563;
+}
+
+.videos-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.videos-table thead {
+  background: #f3f4f6;
+}
+
+.videos-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #ddd;
+}
+
+.videos-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.videos-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.videos-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.videos-table a:hover {
+  text-decoration: underline;
+}
+
+.restricted {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.not-restricted {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.toggle-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.toggle-button.restrict {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.toggle-button.restrict:hover {
+  background: #fde68a;
+}
+
+.toggle-button.unrestrict {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.toggle-button.unrestrict:hover {
+  background: #fecaca;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
