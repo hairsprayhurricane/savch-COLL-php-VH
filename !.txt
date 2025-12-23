@@ -1,0 +1,6 @@
+запуск фронта
+cd frontend/public
+php -S localhost:3000
+запуск бэка 
+cd backend
+php artisan serve
